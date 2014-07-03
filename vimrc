@@ -8,6 +8,16 @@ set clipboard=unnamed " use MacOSX clipboard
 syntax on             " turn on syntax highlighting
 
 ""
+"" Whitespace
+""
+
+set nowrap                     " don't wrap lines
+set softtabstop=2              " use mix of spaces and tabs
+set shiftwidth=2               " an autoindent (with <<) is two spaces
+set expandtab                  " use spaces, not tabs
+set backspace=indent,eol,start " backspace through everything in insert mode
+
+""
 "" Searching
 ""
 
