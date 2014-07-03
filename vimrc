@@ -49,3 +49,8 @@ set directory=~/.vim/tmp/swap/      " where to put swap files.
 ""
 set undofile
 set undodir=~/.vim/tmp/undo
+
+""
+"" Layout
+""
+colorscheme railscasts
