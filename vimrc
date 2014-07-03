@@ -54,3 +54,9 @@ set undodir=~/.vim/tmp/undo
 "" Layout
 ""
 colorscheme railscasts
+
+""
+"" Load plugins using pathogen
+""
+
+exe 'source ' . expand('~/.vim/') . 'core/pathogen/autoload/pathogen.vim'
