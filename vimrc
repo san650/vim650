@@ -70,3 +70,11 @@ colorscheme railscasts
 ""
 
 exe 'source ' . expand('~/.vim/') . 'core/pathogen/autoload/pathogen.vim'
+call pathogen#infect('plugins/{}')
+
+""
+"" NERDTree
+""
+
+let g:NERDTreeStatusline = ' '
+map <Leader>n :NERDTreeToggle<CR>
