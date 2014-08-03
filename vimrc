@@ -78,3 +78,9 @@ call pathogen#infect('plugins/{}')
 
 let g:NERDTreeStatusline = ' '
 map <Leader>n :NERDTreeToggle<CR>
+
+""
+"" ZoomWin
+""
+
+map <Leader><Leader> :ZoomWin<CR>
