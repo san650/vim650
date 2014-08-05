@@ -18,6 +18,17 @@ set expandtab                  " use spaces, not tabs
 set backspace=indent,eol,start " backspace through everything in insert mode
 
 ""
+"" Status line
+""
+set statusline=         " clear statusline for when vimrc is reloaded
+set statusline+=%<\     " cut at start
+set statusline+=%f\     " path
+set statusline+=%=      " right align
+set statusline+=%l/%c\  " line and column
+
+set laststatus=2        " always show statusline
+
+""
 "" Searching
 ""
 
