@@ -27,7 +27,8 @@ set statusline=         " clear statusline for when vimrc is reloaded
 set statusline+=%<\     " cut at start
 set statusline+=%f\     " path
 set statusline+=%=      " right align
-set statusline+=%l/%c\  " line and column
+set statusline+=%3l/%L  " line position of cursor and total number of lines
+set statusline+=,%-3c\  " column position of cursor
 
 set laststatus=2        " always show statusline
 
