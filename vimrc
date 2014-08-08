@@ -24,6 +24,8 @@ autocmd BufWinEnter * match Error /\s\+$/
 "" Status line
 ""
 set statusline=         " clear statusline for when vimrc is reloaded
+set statusline+=b%n     " buffer number
+set statusline+=%M\     " buffer modified flag
 set statusline+=%<\     " cut at start
 set statusline+=%f\     " path
 set statusline+=%=      " right align
