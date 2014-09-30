@@ -48,7 +48,8 @@ nnoremap <CR> :noh<CR><CR> " clear search with <enter>
 "" File types
 ""
 
-set autoindent " use the indent of the previous line for a newly created line
+set autoindent            " use the indent of the previous line for a newly created line
+filetype plugin indent on " turn on filetype plugins
 
 ""
 "" Wild settings
