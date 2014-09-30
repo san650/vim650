@@ -66,6 +66,12 @@ set wildignore+=*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 set wildignore+=*.swp,*~,._*
 
 ""
+"" Mouse
+""
+
+set mouse=a            " allow mouse in all modes
+
+""
 "" Backup and swap files
 ""
 set backupdir=~/.vim/tmp/backup/    " where to put backup files.
