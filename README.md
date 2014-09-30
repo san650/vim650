@@ -15,6 +15,7 @@ ln -s .vim/vimrc .vimrc
 cd .vim
 git submodule init
 git submodule update
+mkdir -p tmp/backup tmp/swap
 ```
 
 ## License
