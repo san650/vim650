@@ -90,6 +90,13 @@ set undodir=~/.vim/tmp/undo
 colorscheme railscasts
 
 ""
+"" File Types
+""
+
+" Handlebars
+autocmd BufRead,BufNewFile {*.hbs} set filetype=html
+
+""
 "" Load plugins using pathogen
 ""
 
