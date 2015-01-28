@@ -10,3 +10,6 @@
 [submodule "plugins/ctrlp"]
 	path = plugins/ctrlp
 	url = https://github.com/kien/ctrlp.vim
+[submodule "plugins/fugitive"]
+	path = plugins/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
