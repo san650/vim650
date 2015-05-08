@@ -24,13 +24,13 @@ autocmd BufWinEnter * match Error /\s\+$/
 "" Status line
 ""
 set statusline=         " clear statusline for when vimrc is reloaded
-set statusline+=b%n     " buffer number
-set statusline+=%M\     " buffer modified flag
-set statusline+=%<\     " cut at start
-set statusline+=%f\     " path
+set statusline+=%n.\    " buffer number
+set statusline+=%M      " buffer modified flag
+set statusline+=%<      " cut at start
+set statusline+=%f      " path
 set statusline+=%=      " right align
-set statusline+=%3l/%L  " line position of cursor and total number of lines
-set statusline+=,%-3c\  " column position of cursor
+set statusline+=(%l,    " line position of cursor and total number of lines
+set statusline+=%c)     " column position of cursor
 
 set laststatus=2        " always show statusline
 
