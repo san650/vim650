@@ -6,6 +6,26 @@ The idea of this project is to allow me to follow the philosophy of Doug Black a
 
 > Don't put any lines in your vimrc that you don't understand.
 
+## Available text objects
+
+
+| Mappings       | text object       |
+| -------------- | ----------------- |
+| <kbd>aw</kbd>  | a word            |
+| <kbd>iw</kbd>  | inner word        |
+| <kbd>at</kbd>  | a tag             |
+| <kbd>it</kbd>  | inner tag         |
+| <kbd>a"</kbd>  | a `"`             |
+| <kbd>i"</kbd>  | inner `"` (the same for <kbd>a'</kbd>)                   |
+| <kbd>a(</kbd>  | a `(` (the same for <kbd>a{</kbd> and <kbd>a[</kbd>)     |
+| <kbd>i(</kbd>  | inner `(` (the same for <kbd>a{</kbd> and <kbd>a[</kbd>) |
+| <kbd>ai</kbd>  | a indent          |
+| <kbd>ii</kbd>  | inner indent      |
+| <kbd>aI</kbd>  | a same indent     |
+| <kbd>iI</kbd>  | inner same indent |
+| <kbd>al</kbd>  | a line            |
+| <kbd>il</kbd>  | inner line        |
+
 ## Installation
 
 ```
