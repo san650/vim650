@@ -16,3 +16,6 @@
 [submodule "plugins/tcomment"]
 	path = plugins/tcomment
 	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "langs/vim-cofee-script"]
+	path = langs/vim-cofee-script
+	url = https://github.com/kchmck/vim-coffee-script
