@@ -19,3 +19,6 @@
 [submodule "langs/vim-cofee-script"]
 	path = langs/vim-cofee-script
 	url = https://github.com/kchmck/vim-coffee-script
+[submodule "langs/javascript"]
+	path = langs/javascript
+	url = https://github.com/pangloss/vim-javascript.git
