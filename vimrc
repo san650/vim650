@@ -102,6 +102,7 @@ autocmd BufRead,BufNewFile {*.hbs} set filetype=html
 
 exe 'source ' . expand('~/.vim/') . 'core/pathogen/autoload/pathogen.vim'
 call pathogen#infect('plugins/{}')
+call pathogen#infect('langs/{}')
 
 ""
 "" NERDTree
