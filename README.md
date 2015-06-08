@@ -25,6 +25,7 @@ The idea of this project is to allow me to follow the philosophy of Doug Black a
 | <kbd>iI</kbd>  | inner same indent |
 | <kbd>al</kbd>  | a line            |
 | <kbd>il</kbd>  | inner line        |
+| <kbd>s'</kbd>  | surround `'` (the same for <kbd>s"</kbd>, <kbd>s(</kbd>, <kbd>s{</kbd>, <kbd>s[</kbd> and <kbd>st</kbd>) |
 
 ## Installation
 
