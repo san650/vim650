@@ -18,7 +18,7 @@ set expandtab                  " use spaces, not tabs
 set backspace=indent,eol,start " backspace through everything in insert mode
 
 " show trailing whitespaces as errors
-autocmd BufWinEnter * match Error /\s\+$/
+autocmd WinEnter,BufWinEnter * match Error /\s\+$/
 
 ""
 "" Status line
