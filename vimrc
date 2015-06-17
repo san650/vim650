@@ -108,13 +108,6 @@ call pathogen#infect('plugins/{}')
 call pathogen#infect('langs/{}')
 
 ""
-"" NERDTree
-""
-
-let g:NERDTreeStatusline = ' '
-map <Leader>n :NERDTreeToggle<CR>
-
-""
 "" ZoomWin
 ""
 
