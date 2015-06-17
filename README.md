@@ -6,8 +6,16 @@ The idea of this project is to allow me to follow the philosophy of Doug Black a
 
 > Don't put any lines in your vimrc that you don't understand.
 
-## Available text objects
+## Some tips
 
+| Mappings                                                           | description        |
+| ------------------------------------------------------------------ | ------------------ |
+| __Insert mode__                                                    |                    |
+| <kbd>ctrl</kbd> + <kbd>p</kbd> and <kbd>ctrl</kbd> + <kbd>n</kbd>  | completion         |
+| <kbd>ctrl</kbd> + <kbd>x</kbd>                                     | completion context |
+| <kbd>ctrl</kbd> + <kbd>x</kbd> and <kbd>ctrl</kbd> + <kbd>l</kbd>  | line completion    |
+
+## Available text objects
 
 | Mappings       | text object       |
 | -------------- | ----------------- |
