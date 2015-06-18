@@ -17,7 +17,7 @@ set shiftwidth=2               " an autoindent (with <<) is two spaces
 set expandtab                  " use spaces, not tabs
 set backspace=indent,eol,start " backspace through everything in insert mode
 
-" show trailing whitespaces as errors
+" Show trailing whitespaces as errors
 autocmd WinEnter,BufWinEnter * match Error /\s\+$/
 
 ""
@@ -55,14 +55,18 @@ filetype plugin indent on " turn on filetype plugins
 "" Wild settings
 ""
 
-set wildmode=list:longest  " list all matches and complete till longest common string
+" list all matches and complete till longest common string
+set wildmode=list:longest
 
 " Disable output and VCS files
 set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
+
 " Disable archive files
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
+
 " Ignore bundler and sass cache
 set wildignore+=*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
+
 " Disable temp and backup files
 set wildignore+=*.swp,*~,._*
 
@@ -70,7 +74,8 @@ set wildignore+=*.swp,*~,._*
 "" Mouse
 ""
 
-set mouse=a            " allow mouse in all modes
+" allow mouse in all modes
+set mouse=a
 
 ""
 "" Backup and swap files
@@ -94,7 +99,7 @@ colorscheme railscasts
 ""
 
 " Handlebars
-autocmd BufRead,BufNewFile {*.hbs} set filetype=html
+autocmd BufRead,BufNewFile *.hbs set filetype=html
 
 " Spell check
 autocmd FileType gitcommit setlocal spell
