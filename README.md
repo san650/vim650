@@ -14,6 +14,8 @@ The idea of this project is to allow me to follow the philosophy of Doug Black a
 | <kbd>ctrl</kbd> + <kbd>p</kbd> and <kbd>ctrl</kbd> + <kbd>n</kbd>  | completion         |
 | <kbd>ctrl</kbd> + <kbd>x</kbd>                                     | completion context |
 | <kbd>ctrl</kbd> + <kbd>x</kbd> and <kbd>ctrl</kbd> + <kbd>l</kbd>  | line completion    |
+| __Visual mode__                                                    |                    |
+| <kbd>gq</kbd>                                                      | re-format text     |
 
 ## Available text objects
 

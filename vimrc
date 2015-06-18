@@ -99,6 +99,9 @@ autocmd BufRead,BufNewFile {*.hbs} set filetype=html
 " Spell check
 autocmd FileType gitcommit setlocal spell
 
+" wrap at 80-characters
+autocmd BufRead,BufNewFile *.md setlocal textwidth=80
+
 ""
 "" Load plugins using pathogen
 ""
