@@ -6,6 +6,15 @@ The idea of this project is to allow me to follow the philosophy of Doug Black a
 
 > Don't put any lines in your vimrc that you don't understand.
 
+## Installation
+
+```
+cd ~
+git clone https://github.com/san650/vim650.git .vim
+cd .vim
+./install.sh
+```
+
 ## Some tips
 
 | Mappings                                                           | description        |
@@ -36,15 +45,6 @@ The idea of this project is to allow me to follow the philosophy of Doug Black a
 | <kbd>al</kbd>  | a line            |
 | <kbd>il</kbd>  | inner line        |
 | <kbd>s'</kbd>  | surround `'` (the same for <kbd>s"</kbd>, <kbd>s(</kbd>, <kbd>s{</kbd>, <kbd>s[</kbd> and <kbd>st</kbd>) |
-
-## Installation
-
-```
-cd ~
-git clone https://github.com/san650/vim650.git .vim
-cd .vim
-./install.sh
-```
 
 ## License
 
