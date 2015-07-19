@@ -1,6 +1,10 @@
 # Default target
 all:
 
+sup:
+	@echo
+	@head -7 < README.md
+
 tmp:
 	mkdir -p tmp/backup tmp/swap
 
@@ -10,7 +14,7 @@ gitmodules:
 # ln
 #   -f: Unlink ~/.vimrc if already exists
 #   -s: Symbolic
-install: tmp gitmodules
+install: sup tmp gitmodules
 	ln -fs vimrc ~/.vimrc
 	@echo
 	@echo Done.
