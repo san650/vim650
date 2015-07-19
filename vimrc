@@ -6,6 +6,7 @@ set nocompatible      " use vim, no vi defaults
 set encoding=utf-8    " set default encoding to UTF-8
 set clipboard=unnamed " use MacOSX clipboard
 syntax on             " turn on syntax highlighting
+set virtualedit=block " allow virtual editing in Visual block mode
 
 ""
 "" Whitespace
