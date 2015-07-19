@@ -12,7 +12,7 @@ The idea of this project is to allow me to follow the philosophy of Doug Black a
 cd ~
 git clone https://github.com/san650/vim650.git .vim
 cd .vim
-./install.sh
+make install
 ```
 
 ## Some tips
