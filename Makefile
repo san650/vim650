@@ -15,7 +15,7 @@ gitmodules:
 #   -f: Unlink ~/.vimrc if already exists
 #   -s: Symbolic
 install: sup tmp gitmodules
-	ln -fs vimrc ~/.vimrc
+	ln -fs `pwd`/vimrc ~/.vimrc
 	@echo
 	@echo Done.
 
