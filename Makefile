@@ -16,6 +16,7 @@ gitmodules:
 #   -s: Symbolic
 install: sup tmp gitmodules
 	ln -fs vimrc ~/.vimrc
+	ln -fs `pwd`/ ~/.vim
 	@echo
 	@echo Done.
 
