@@ -99,6 +99,8 @@ colorscheme railscasts
 "" File Types
 ""
 
+" Typescript
+autocmd BufRead,BufNewFile *.ts set filetype=javascript
 
 " Spell check
 autocmd FileType gitcommit setlocal spell
