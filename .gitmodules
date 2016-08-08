@@ -31,3 +31,6 @@
 [submodule "plugins/surround"]
 	path = plugins/surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "plugins/hbs"]
+	path = plugins/hbs
+	url = https://github.com/joukevandermaas/vim-ember-hbs.git

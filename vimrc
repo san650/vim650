@@ -99,8 +99,6 @@ colorscheme railscasts
 "" File Types
 ""
 
-" Handlebars
-autocmd BufRead,BufNewFile *.hbs set filetype=html
 
 " Spell check
 autocmd FileType gitcommit setlocal spell
