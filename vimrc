@@ -121,3 +121,8 @@ call pathogen#infect('langs/{}')
 ""
 
 map <Leader><Leader> :ZoomWin<CR>
+
+""
+"" Set 256 colors (for tmux compatibility)
+""
+set t_Co=256
