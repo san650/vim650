@@ -37,3 +37,6 @@
 [submodule "plugins/hbs"]
 	path = plugins/hbs
 	url = https://github.com/joukevandermaas/vim-ember-hbs.git
+[submodule "langs/elixir"]
+	path = langs/elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
