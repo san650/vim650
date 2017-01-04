@@ -126,3 +126,38 @@ map <Leader><Leader> :ZoomWin<CR>
 "" Set 256 colors (for tmux compatibility)
 ""
 set t_Co=256
+
+""
+"" tpope's sensible.vim
+""
+set complete-=i
+set smarttab
+set nrformats-=octal
+set ttimeout
+set ttimeoutlen=100
+
+if !&scrolloff
+  set scrolloff=1
+endif
+
+if !&sidescrolloff
+  set sidescrolloff=5
+endif
+
+set display+=lastline
+set autoread
+if &history < 1000
+  set history=1000
+endif
+if &tabpagemax < 50
+  set tabpagemax=50
+endif
+if !empty(&viminfo)
+  set viminfo^=!
+endif
+if &t_Co == 8 && $TERM !~# '^linux\|^Eterm'
+  set t_Co=16
+endif
+if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
+  runtime! macros/matchit.vim
+endif
