@@ -40,3 +40,6 @@
 [submodule "langs/elixir"]
 	path = langs/elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "langs/apiblueprint"]
+	path = langs/apiblueprint
+	url = https://github.com/kylef/apiblueprint.vim.git
