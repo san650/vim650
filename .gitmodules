@@ -43,3 +43,6 @@
 [submodule "langs/apiblueprint"]
 	path = langs/apiblueprint
 	url = https://github.com/kylef/apiblueprint.vim.git
+[submodule "langs/jsx"]
+	path = langs/jsx
+	url = https://github.com/mxw/vim-jsx.git
