@@ -49,3 +49,6 @@
 [submodule "langs/styled-components"]
 	path = langs/styled-components
 	url = https://github.com/fleischie/vim-styled-components.git
+[submodule "langs/typescript"]
+	path = langs/typescript
+	url = https://github.com/leafgarland/typescript-vim.git
