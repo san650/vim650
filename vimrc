@@ -161,3 +161,9 @@ endif
 if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
   runtime! macros/matchit.vim
 endif
+
+"""
+""" jsx
+"""
+
+let g:jsx_ext_required = 0 " don't require jsx extension
