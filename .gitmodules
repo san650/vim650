@@ -52,3 +52,6 @@
 [submodule "langs/typescript"]
 	path = langs/typescript
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "langs/elm"]
+	path = langs/elm
+	url = github:ElmCast/elm-vim
