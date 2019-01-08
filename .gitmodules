@@ -55,3 +55,6 @@
 [submodule "langs/elm"]
 	path = langs/elm
 	url = github:ElmCast/elm-vim
+[submodule "langs/slim"]
+	path = langs/slim
+	url = https://github.com/slim-template/vim-slim
